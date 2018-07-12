@@ -1,0 +1,46 @@
+<!Doctype HTML>
+<html>
+<div class = 'label'>
+    <button class = 'labellink' onclick = "openpage(event, 'create_inventory')" >Create Inventory</button>
+    <button class = 'labellink' onclick = "openpage(event, 'create_loan')">Create Loan</button>
+    <button class = 'labellink' onclick = "openpage(event, 'update_inventory')">Update Inventory</button>
+    <button class = 'labellink' onclick = "openpage(event, 'inventory')">Inventory</button>
+</div>
+
+<div id = 'create_inventory' class = 'labelcontent'>
+    <form action="/main.php">
+        Description:<br>
+        <input type="text" name="description" value="Mickey">
+        <br>
+        Color:<br>
+        <input type="text" name="color" value="red">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<div id = 'create_loan' class = 'labelcontent'>
+    <form action="/main.php">
+        First name:<br>
+        <input type="text" name="firstname" value="Mickey">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname" value="Mouse">
+        <br>
+        A number:<br>
+        <input type="text" name="a_number" value="A00948759">
+        <br>
+        email:<br>
+        <input type="text" name="email" value="dfubbfefu@gmail.com">
+
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<div id = 'update_inventory' class = 'labelcontent'></div>
+
+<div id = 'inventory' class = 'labelcontent'></div>
+
+</html>
+
