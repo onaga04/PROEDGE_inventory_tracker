@@ -10,7 +10,8 @@ include ('includes/header.php');
             <li><a data-toggle="tab" href="#menu2">Create Loan</a></li>
             <li><a data-toggle="tab" href="#menu3">Update Inventory</a></li>
             <li><a data-toggle="tab" href="#menu4">Inventory</a></li>
-            <!-- New Tab All Loans-->
+            <li><a data-toggle="tab" href="#menu5">Loans</a></li>
+           
         </ul>
 
         <div class="tab-content">
@@ -37,11 +38,38 @@ include ('includes/header.php');
                 </form>
             </div>
             <div id="menu4" class="tab-pane fade">
-                <p>
-                    Table displaying all inventory items.
-                    ****Modify the table for the inventory fields.****
-                </p>
                 <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Clothing</th>
+                        <th>color</th>
+                        <th>Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>dress pants</td>
+                        <td>black</td>
+                        <td>striped</td>
+                    </tr>
+                    <tr>
+                        <td>scarf</td>
+                        <td>brown</td>
+                        <td>wool</td>
+                    </tr>
+                    <tr>
+                        <td>Shirt</td>
+                        <td>Black and white</td>
+                        <td>long sleeve</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            </div>
+            <div>
+
+            <div id="menu5" class="tab-pane fade">
+            <table class="table">
                     <thead>
                     <tr>
                         <th>Firstname</th>
@@ -75,7 +103,6 @@ include ('includes/header.php');
                     </tr>
                     </tbody>
                 </table>
-            </div>
         </div>
 
     </div>
