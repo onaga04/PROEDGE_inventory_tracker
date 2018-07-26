@@ -1,6 +1,4 @@
-<?php
-  <Doctype HTML>
-    <html>
+
     <div id = 'create_loan' class = 'labelcontent'>
             <form action="/main.php">
                Description:<br>
@@ -14,5 +12,4 @@
             <!-- //Submit Button -->
         </div>
 
-    </html>
-?>
+   
