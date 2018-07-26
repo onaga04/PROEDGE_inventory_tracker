@@ -18,13 +18,13 @@ include ('includes/header.php');
             <div id="menu1" class="tab-pane fade in active">
                 
                 <?php
-                include ('includes/header.php');
+                require ('includes/header.php');
                 ?>
 
             </div>
             <div id="menu2" class="tab-pane fade">
                   <?php
-                include ('includes/header.php');
+                require ('includes/header.php');
                 ?>
             </div>
             <div id="menu3" class="tab-pane fade">
