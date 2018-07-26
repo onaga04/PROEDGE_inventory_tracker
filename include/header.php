@@ -1,4 +1,5 @@
 <?php
+?>
  <!Doctype HTML>
       <html>
         <head>
@@ -21,6 +22,6 @@
           </header>
          </body>
       </html>
-   ?>
+   
    
 
