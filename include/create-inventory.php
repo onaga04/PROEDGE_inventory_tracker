@@ -1,15 +1,14 @@
-
-    <div id = 'create_loan' class = 'labelcontent'>
-            <form action="/main.php">
-               Description:<br>
-                <input type="text" name="description" value="dress pants">
-                <br>
-               Color:<br>
-                <input type="text" name="color" value="black">
-                <br><br>
-            <input type="submit" value="Submit">
-            </form>
-            <!-- //Submit Button -->
-        </div>
+<div id='create_inventory' class='labelcontent'>
+    <form action="/inventory/database/create-inventory.php" method="POST">
+        Description:<br>
+        <input type="text" name="description" value="">
+        <br>
+        Color:<br>
+        <input type="text" name="color" value="">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <!-- //Submit Button -->
+</div>
 
    
