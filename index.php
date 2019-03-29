@@ -29,17 +29,17 @@ include ('include/header.php');
 <!--            </div>-->
 
             <div id="menu3" class="tab-pane fade in active">
-                <?php include_once('include/show-inventory.php'); ?>
+                <?php include_once('include/inventory-tab.php'); ?>
 
 
             </div>
 
 
             <div id="menu4" class="tab-pane fade">
-                <?php include_once('include/loans-tab.php'); ?>
+                <?php include_once('include/student-tab.php'); ?>
             </div>
             <div id="menu5" class="tab-pane fade">
-                <?php include_once('include/create-loan.php'); ?>
+                <?php include_once('include/loans-tab.php'); ?>
             </div>
 
     </div>
